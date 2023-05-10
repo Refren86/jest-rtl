@@ -24,7 +24,7 @@ describe('CounterTwo component', () => {
         handleDecrement={decrementHandler}
       />
     );
-    const incBtnEl = screen.getByRole('button', { name: 'Incc' });
+    const incBtnEl = screen.getByRole('button', { name: 'Inc' });
     const decBtnEl = screen.getByRole('button', { name: 'Dec' });
 
     await user.click(incBtnEl);
